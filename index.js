@@ -1,5 +1,5 @@
 const takeANumber = function (curPeople, name) {
-  //curLine is the array of ppl in the line now
+  //curPeople is the array of ppl in the line now
   let yourNumber = (curPeople.length + 1);
   curPeople.push(name);
   return (`Welcome, ${name}. You are number ${yourNumber} in line.`)
